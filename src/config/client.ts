@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "4",
 
   // Services
   services: [
@@ -79,9 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Chris B", rating: 5, text: "The service I had from WJM Garden Services was first rate. They turned up on time, both to quote (others didn’t even bother to do that) and do the actual work. …  ", date: "5 years ago" },
+    { name: "Antoinette Wakely", rating: 5, text: "Will Merson, the owner of this company is incompetent, when asked to rectify mistakes he becomes aggressive in a violent nature!!! DO NOT USE THIS COMPANY. ", date: "2 years ago" },
+    { name: "carole chick", rating: 5, text: "Very reliable good communications very neat and tidy highly recommendedPositive…  ", date: "5 years ago" },
+    { name: "John Atyeo", rating: 5, text: "Top bloke discarded hood job not too expensive ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
